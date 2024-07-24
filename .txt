@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Kumar - Professional Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rohit Kumar</h1>
+        <p>Professional Swing Trader | Sales Executive | Aspiring Data Analyst</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About</h2>
+            <p>Hello! I am Rohit Kumar, a professional swing trader with expertise in the equity cash segment. Currently, I work as a Sales Executive at Omicron Paptech, leveraging my experience in the paper industry. With a diploma in pulp and paper technology and a passion for stock market investing, I am also pursuing a BCA to further enhance my skills in AI and ML.</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>Sales Executive at Omicron Paptech, India</h3>
+            <p>Responsible for sales and client relationships in the paper industry. Conducted market research and developed sales strategies to increase revenue.</p>
+            <h3>Stock Preparation Section, Paper Mill</h3>
+            <p>Worked in the production department focusing on stock preparation processes, contributing to the efficiency and quality of the final product.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Stock Market Analysis</li>
+                <li>Technical and Fundamental Analysis</li>
+                <li>Sales and Marketing</li>
+                <li>Data Analysis</li>
+                <li>AI and Machine Learning (in progress)</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Swing Trading Strategy Development</h3>
+            <p>Developed a robust swing trading strategy that classifies Nifty 200 stocks into sectors, performs fundamental and technical analysis, and identifies trade opportunities based on performance ratios.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <p>Email: <a href="mailto:kumarrohit07128@gmail.com">kumarrohit07128@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/rohitkumar-chemeng" target="_blank">Rohit Kumar</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Rohit Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
